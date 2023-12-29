@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="pong.css">
+</head>
+<body>
+    <h1>Pong</h1>
+    <div class="contenedor">
+        <div id="jugador1">
+        </div>
+        <div id="bola">
+
+        </div>
+        <div id="jugador2">
+        </div>
+    </div>
+    <div class="score">
+        Score: 
+        <span class="currentScore">0</span>
+        High Score: 
+        <span class="highScore">0</span>
+    </div>
+    <form>
+        <input id="one" type="radio" name="radios" value="facil" onclick="dificultad(1)">
+        <input id="two" type="radio" name="radios" value="intermedio" onclick="dificultad(2)">
+        <input id="three" type="radio" name="radios" value="dificil" onclick="dificultad(3)">
+        <span></span>
+        <label for="one">Facil</label>
+        <label for="two">Intermedio</label>
+        <label for="three">Dificil</label>
+      </form>
+    <script src="pong.js"></script>
+</body>
+</html>
